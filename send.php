@@ -42,8 +42,8 @@ if (!preg_match ($pattern, $vEmail) ){
   $vFile = $_POST['myfile'];
   $file = $_FILES['myfile'];
 
-  //input the email which you'd like to submit the forms to
-  $email_from = 'jamesganley96@gmail.com';
+  //Replace the email which you'd like to submit the forms to
+  $email_from = 'SubmitionEmail@Here.com';
 
 	$email_subject = "New Form submission";
 
